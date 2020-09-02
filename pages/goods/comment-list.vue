@@ -2,7 +2,7 @@
 	<view class="page_box">
 		<view class="head_box x-f">
 			<button :class="{ 'btn-active': typeCurrent === t.code }" class="cu-btn type-btn" @tap="selType(t.code)" v-for="t in commentTypeList" :key="t.code">
-				{{ t.name }}({{t.num}})
+				{{ t.name }}({{ t.num }})
 			</button>
 		</view>
 		<view class="content_box">
